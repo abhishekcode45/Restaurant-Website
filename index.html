@@ -1,1 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swaad Bhavan Restaurant</title>
+    <link rel="stylesheet" href="ss.css">
+</head>
+<body>
 
+   
+    <header id="home">
+        <h1>Swaad Bhavan Restaurant</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <section class="hero">
+        <div class="hero-text">
+            <h2>Welcome to Swaad Bhavan!</h2>
+            <p>Enjoy the real taste of India made with love, spices, and fresh ingredients.  
+            Every dish is cooked just like at home.</p>
+            <!-- <a href="#menu" class="btn">See Our Menu</a> -->
+        </div>
+        <div class="hero-img">
+            <img src="image.png" alt="Indian Thali">
+        </div>
+    </section>
+
+    
+    <section id="menu" class="menu">
+        <h2> Special Menu</h2>
+        <div class="sep-menu">
+            <img src="image copy.png" alt="Indian Menu" class="menu-img">
+            <img src="/menu-THE-TEROTALE-Restaurant-724x1024.webp"   alt="Indian Menu" class="menu-img">
+        </div>
+        <h2>Menu</h2>
+        <div class="menu-grid">
+            <div class="menu-category">
+                <h3>Starters</h3>
+                <ul>
+                    <li>Paneer Tikka - ₹180</li>
+                    <li>Hara Bhara Kebab - ₹160</li>
+                    <li>Chicken Tandoori (Half) - ₹220</li>
+                    <li>Veg Spring Roll - ₹150</li>
+                    <li>Masala Papad - ₹70</li>
+                </ul>
+            </div>
+
+            <div class="menu-category">
+                <h3>Main Course</h3>
+                <ul>
+                    <li>Paneer Butter Masala - ₹220</li>
+                    <li>Dal Makhani - ₹190</li>
+                    <li>Butter Chicken - ₹280</li>
+                    <li>Veg Biryani - ₹200</li>
+                    <li>Chicken Biryani - ₹260</li>
+                    <li>Roti / Naan (per piece) - ₹25</li>
+                </ul>
+            </div>
+
+            <div class="menu-category">
+                <h3>Snacks</h3>
+                <ul>
+                    <li>Veg Samosa (2 pcs) - ₹50</li>
+                    <li>Paneer Pakora - ₹120</li>
+                    <li>Aloo Tikki - ₹80</li>
+                    <li>Chole Bhature - ₹140</li>
+                    <li>Vada Pav - ₹60</li>
+                </ul>
+            </div>
+
+            <div class="menu-category">
+                <h3>Desserts</h3>
+                <ul>
+                    <li>Gulab Jamun (2 pcs) - ₹90</li>
+                    <li>Rasgulla (2 pcs) - ₹90</li>
+                    <li>Kesar Kulfi - ₹100</li>
+                    <li>Gajar Halwa - ₹120</li>
+                    <li>Ice Cream (per scoop) - ₹70</li>
+                </ul>
+            </div>
+
+            <div class="menu-category">
+                <h3>Beverages</h3>
+                <ul>
+                    <li>Masala Chai - ₹40</li>
+                    <li>Cold Coffee - ₹90</li>
+                    <li>Sweet Lassi - ₹80</li>
+                    <li>Fresh Lime Soda - ₹70</li>
+                    <li>Mineral Water - ₹30</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>  
+        We serve homemade-style Indian food made fresh every day.  
+        Our aim is simple — to give you good taste, warm service, and a happy meal.</p>
+    </section>
+
+    
+    <section class="timings">
+        <h2>Restaurant Timings</h2>
+        <table>
+            <caption>Opening Hours</caption>
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Opening Time</th>
+                    <th>Closing Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Monday - Friday</td>
+                    <td>11:00 AM</td>
+                    <td>10:00 PM</td>
+                </tr>
+                <tr>
+                    <td>Saturday - Sunday</td>
+                    <td>10:00 AM</td>
+                    <td>11:00 PM</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    
+    <section id="contact" class="contact">
+        <h2>Book a Table</h2>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Reservation Form</legend>
+
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="people">No. of People:</label><br>
+                <select id="people" name="people">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5+</option>
+                </select><br><br>
+
+                <label for="message">Special Request:</label><br>
+                <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
+
+                <input type="submit" value="Reserve">
+            </fieldset>
+        </form>
+    </section>
+
+</body>
+</html>
